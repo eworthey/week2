@@ -1,0 +1,134 @@
+body {
+  background: linear-gradient(
+    to right,
+    rgb(56, 56, 75),
+    rgb(80, 25, 119),
+    rgb(92, 74, 92),
+    rgb(128, 128, 215)
+  ) #eee; 
+}
+
+h1 {
+        padding-top: 20pt;
+        padding-bottom: 30pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 45pt;
+        color: white;
+      }
+     
+h2 {
+  font-size: 28pt;
+  color: white;
+  text-decoration: underline;
+}
+      .top-container {
+        display: flex;
+        justify-content: space-around;
+      }
+      .about {
+        margin-left: 200pt;
+      }
+      .container-intro img {
+        width: 300px;
+        height: 500px;
+        border: 10px double black;
+        margin-left: 20pt;
+      }
+
+      .container-intro p {
+        font-size: 30pt;
+        margin-left: 20pt;
+        margin-right: 20pt;
+        text-align: center;
+      }
+
+      .container-intro {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+      }
+
+      .container-services {
+        border: 2px solid black;
+        color: white;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        align-items: center;
+        padding-top: 20pt;
+        padding-bottom: 20pt;
+        margin-top: 30pt;
+        margin-bottom: 70pt;
+      }
+      .services {
+        font-size: 20pt;
+        justify-content: space-evenly;
+        text-align: center;
+      }
+
+      .services p {
+        margin-bottom: 2pt;
+      }
+
+      button {
+        color: rgb(90, 90, 233);
+      }
+
+      button:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+      }
+      h3 {
+        text-align: left;
+        color: white;
+        font-size: 20pt;
+        text-decoration: underline;
+        padding-bottom: 0pt;
+      }
+
+      form {
+        width: 60%;
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-top: 1em;
+        font-weight: bold;
+        color: white;
+      }
+
+      input,
+      textarea,
+      select {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1em;
+        margin-bottom: 2em;
+        border: 1px solid rgb(51, 51, 51);
+        border-radius: 3px;
+      }
+
+      textarea {
+        height: 10em;
+      }
+      input[type="submit"] {
+        background-color: rgb(90, 90, 233);
+        color: white;
+        font-weight: bold;
+        border: none;
+        padding: 0.5em 1em;
+        cursor: pointer;
+        margin-top: 1em;
+      }
+
+      input[type="submit"]:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+      }
+
+      
